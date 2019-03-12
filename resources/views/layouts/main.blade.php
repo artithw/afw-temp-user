@@ -7,8 +7,8 @@
 @section('navi')
 <div class="col-sm-6">
   <ol class="breadcrumb float-sm-right">
-    <li class="breadcrumb-item"><a href="#">Home</a></li>
-    <li class="breadcrumb-item active">Starter Page</li>
+    <li class="breadcrumb-item"><a href="#"><i class="fas fa-igloo"></i>Home</a></li>
+    <li class="breadcrumb-item active"><i class="fa fa-file-pdf-o"></i>Starter Page</li>
   </ol>
 </div><!-- /.col -->
 @stop

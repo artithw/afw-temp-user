@@ -37394,12 +37394,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("td", [
-      _c("i", {
-        staticClass: "fa fa-file-pdf-o",
-        staticStyle: { "font-size": "36px", color: "red" }
-      })
-    ])
+    return _c("td", [_c("i", { staticClass: "fas fa-igloo" })])
   },
   function() {
     var _vm = this

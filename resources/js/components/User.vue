@@ -24,7 +24,7 @@
               <td>ชื่อโครงการ</td>
               <td>{{user.name}}</td>
               <td>{{user.city}}</td>
-              <td><i class="fa fa-file-pdf-o" style="font-size:36px;color:red"></i></td>
+              <td><i class="fas fa-igloo"></i></i></td>
               <td>10/4/2562</td>
               <td>18/4/2562</td>
               <td>
