@@ -1953,6 +1953,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     this.getUserData();
@@ -37277,23 +37297,28 @@ var render = function() {
   return _c("div", [
     _c("div", [
       _c("div", { staticClass: "container" }, [
-        _c("h2", { staticClass: "table tables-boardered" }, [
-          _vm._v("แสดงข้อมูล")
-        ]),
-        _vm._v(" "),
-        _c(
-          "table",
-          { staticClass: "table tables-boardered" },
-          [
-            _vm._m(0),
-            _vm._v(" "),
+        _c("table", { staticClass: "table table-striped" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "tbody",
             _vm._l(_vm.users, function(user, index) {
               return _c("tr", { key: user.id }, [
                 _c("td", [_vm._v(_vm._s(user.id))]),
                 _vm._v(" "),
+                _c("td", [_vm._v("ชื่อโครงการ")]),
+                _vm._v(" "),
                 _c("td", [_vm._v(_vm._s(user.name))]),
                 _vm._v(" "),
                 _c("td", [_vm._v(_vm._s(user.city))]),
+                _vm._v(" "),
+                _vm._m(1, true),
+                _vm._v(" "),
+                _c("td", [_vm._v("10/4/2562")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("18/4/2562")]),
+                _vm._v(" "),
+                _vm._m(2, true),
                 _vm._v(" "),
                 _c("td", [
                   _c(
@@ -37322,10 +37347,10 @@ var render = function() {
                   )
                 ])
               ])
-            })
-          ],
-          2
-        ),
+            }),
+            0
+          )
+        ]),
         _vm._v(" "),
         _c(
           "a",
@@ -37341,16 +37366,51 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("tr", [
-      _c("th", [_vm._v("รหัส")]),
-      _vm._v(" "),
-      _c("th", [_vm._v("ชื่อ")]),
-      _vm._v(" "),
-      _c("th", [_vm._v("จังหวัด")]),
-      _vm._v(" "),
-      _c("th", [_vm._v("แก้ไข")]),
-      _vm._v(" "),
-      _c("th", [_vm._v("ลบ")])
+    return _c("thead", { staticClass: "thead-dark" }, [
+      _c("tr", [
+        _c("th", { attrs: { scope: "col" } }),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("ชื่อโครงการ")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("ผู้รับผิดชอบ")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("สังกัด")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("เอกสาร")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("วันที่เริ่ม")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("วันที่สิ้นสุด")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("สถานะ")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("แก้ไข")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("ลบ")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("td", [
+      _c("i", {
+        staticClass: "fa fa-file-pdf-o",
+        staticStyle: { "font-size": "36px", color: "red" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("td", [
+      _c(
+        "button",
+        { staticClass: "btn btn-success", attrs: { type: "button" } },
+        [_vm._v("อนุมัติ")]
+      )
     ])
   }
 ]
