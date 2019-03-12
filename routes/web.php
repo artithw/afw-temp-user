@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('/layouts/main');
 });
 Route::resource('users', 'UserController');
 

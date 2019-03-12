@@ -6,9 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>@yield('title')</title>
+  <title>AFW TEMP | USER</title>
 
 <link rel="stylesheet" href="/css/app.css">
 </head>
@@ -209,7 +208,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">@yield('page-name')</h1>
+            <h1 class="m-0 text-dark">Starter Page</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -224,7 +223,7 @@
 
     <!-- Main content -->
     <div class="content">
-      @yield('content')
+      @yield('layouts.content')
     </div>
     <!-- /.content -->
   </div>
@@ -244,10 +243,10 @@
   <footer class="main-footer">
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">
-      Anything you want is ower service.
+      Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2019 <a href="https://pasv.io">PA Service</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2014-2018 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
   </footer>
 </div>
 <!-- ./wrapper -->
